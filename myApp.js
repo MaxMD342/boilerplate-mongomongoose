@@ -69,4 +69,4 @@ exports.removeById = removeById;
 exports.removeManyPeople = removeManyPeople;
 exports.queryChain = queryChain;
 
-mongoose.connect(<MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
