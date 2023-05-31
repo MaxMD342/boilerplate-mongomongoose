@@ -1,5 +1,7 @@
 require('dotenv').config();
 let mongoose = require('mongoose');
+const mySecret = process.env['MONGO_URI']
+
 
 let Person;
 
