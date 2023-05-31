@@ -19,7 +19,7 @@ const createAndSavePerson = (done) => {
     favoriteFoods : ["Meat", "Alcohol"]
   }) 
   PersonOne.save(function(err, data){
-    if (err) return.console(err);
+    if (err) return console.error(err);
     done(null, data)
   )}
 };
