@@ -18,7 +18,7 @@ const createAndSavePerson = (done) => {
     age : 45,
     favoriteFoods : ["Meat", "Alcohol"]
   }) 
-  PersonOne.save(unction(err, data){
+  PersonOne.save(function(err, data){
     if (err) return.console(err);
     done(null, data)
   )}
