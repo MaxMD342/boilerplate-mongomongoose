@@ -5,9 +5,9 @@ const MONGO_URI = process.env['MONGO_URI'];
 const Schema = mongoose.Schema;
 
 var personSchema = new Schema( {
-  name: { type: String, requred: true};
-  age: Number;
-  favoriteFoods: [String];
+  name: { type: String, requred: true},
+  age: Number,
+  favoriteFoods: [String],
 })
 
 var Person = mongoose.model('Person', personSchema);
